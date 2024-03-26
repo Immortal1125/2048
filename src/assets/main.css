@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: box;
+    touch-action: none;
+    user-select: none;
+}
+
+html {
+    background-color: #333;
+}
