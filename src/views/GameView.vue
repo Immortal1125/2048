@@ -230,6 +230,7 @@ function move(matrix: number[][], direction: Direction) {
             matrix[nextI][nextJ] = -1;
             cards.value[nextCardIndex].x = i;
             cards.value[nextCardIndex].y = j;
+
             cards.value.splice(nowCardIndex, 1);
             _changeIndex(nowCardIndex);
         }
